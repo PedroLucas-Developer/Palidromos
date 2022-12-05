@@ -1,0 +1,76 @@
+.box {
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulario {
+    width: 300px;
+    background: #7fb5fa;
+  
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  body {
+    margin: 0px;
+  }
+    
+  
+  label {
+    margin: 81px 30px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  p {
+    margin: 0 30px;
+    color: #FF0000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+  input {
+    
+    margin: 2px 30px;
+    display: block;
+    width: 80%;
+    border: 0px;
+    height: 27px;
+  }
+  
+  h1{
+   text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 27px;
+  }
+  
+  .submit {
+    margin: 20px 0 0 30px;
+    background: #FFFFFF;
+    color: #7fb5fa;
+    border: 0px;
+    width: 82%;
+    height: 40px;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    
+  }
+    
+  

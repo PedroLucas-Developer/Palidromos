@@ -1,0 +1,2 @@
+# Palidromos
+ Descobrir numeors palindromos

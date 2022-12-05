@@ -7,9 +7,9 @@ Numero.addEventListener("blur", function(e) {
 });
 function Palindromos(Numero_){
    var Array_numero = Criar_Array(Numero_);
-   DeCrecente_numero = Criar_Array(Numero_);
-   Array_DeCrecente = DeCrecente_numero.reverse();
-   return JSON.stringify(Array_numero) === JSON.stringify(Array_DeCrecente);
+   var Detras_numero = Criar_Array(Numero_);
+   Array_ao_contrario = Detras_numero.reverse();
+   return JSON.stringify(Array_numero) === JSON.stringify(Array_ao_contrario);
 }
 function Criar_Array(Numero_) {
    let Novo_Numero = num => Number(num);   

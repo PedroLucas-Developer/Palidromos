@@ -7,8 +7,8 @@ Numero.addEventListener("blur", function(e) {
 });
 function Palindromos(Numero_){
    var Array_numero = Criar_Array(Numero_);
-   var Detras_numero = Criar_Array(Numero_);
-   Array_ao_contrario = Detras_numero.reverse();
+   var numero_Detras = Criar_Array(Numero_);
+   Array_ao_contrario = numero_Detras.reverse();
    return JSON.stringify(Array_numero) === JSON.stringify(Array_ao_contrario);
 }
 function Criar_Array(Numero_) {

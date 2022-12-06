@@ -8,4 +8,4 @@
 
 ## Link De Visualizacao
 
-
+[Palidromos](https://vercel.com/pedrolucas-m-m/palidromos)
